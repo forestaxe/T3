@@ -1,0 +1,25 @@
+{
+    "image_size": { "X_length" : 250,
+					"Y_length" : 250
+				  },
+    "figures": [
+				  "Circle" :        {
+									    "X_center" : 45,
+										"Y_center" : 20,
+										"Radius"   : 9
+									},
+				  "Rectangle" :     {
+									    "X_upper_left"  : 187,
+										"Y_upper_left" :  218,
+										"X_lower_right"  : 230,
+										"Y_lower_right" :  202
+                                    },
+				  "Rectangle" :     {
+										"X_upper_left"  : 211,
+										"Y_upper_left" :  214,
+										"X_lower_right"  : 300,
+										"Y_lower_right" :  44,
+										"transparency" : "off"
+                                    },
+				]
+}

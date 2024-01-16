@@ -1,0 +1,7 @@
+{
+				  "Square" :     {
+									    "X_upper_left"  : 40,
+										"Y_upper_left" : 50,
+										"side_length" : 10
+                                    }
+}
