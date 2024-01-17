@@ -1,0 +1,73 @@
+{
+  "image_size": {
+    "X_length" : 250,
+    "Y_length" : 250
+  },
+
+  "figures": [
+    {
+      "Circle": {
+        "Shape": {
+          "X_center": 45,
+          "Y_center": 20,
+          "Radius": 9
+        },
+        "Params": {
+          "line_width": 3,
+          "line_color": "black",
+          "Color": "green",
+          "Transparency": "off"
+        }
+      }
+    },
+
+    {
+      "Rectangle": {
+        "Shape": {
+          "X_upper_left": 87,
+          "Y_upper_left": 18,
+          "X_lower_right": 130,
+          "Y_lower_right": 92
+        },
+        "Params": {
+          "line_width": 3,
+          "line_color": "black",
+          "Color": "green",
+          "Transparency": "off"
+        }
+      }
+    },
+
+    {
+      "Square": {
+        "Shape": {
+          "X_up_left": 11,
+          "Y_up_left": 14,
+          "side_length": 10
+        },
+        "Params": {
+          "line_width": 3,
+          "line_color": "black",
+          "Color": "green",
+          "Transparency": "off"
+        }
+      }
+    },
+
+    {
+      "Triangle": {
+        "Shape": {
+          "Point1" : {"X": 30, "Y": 35},
+          "Point2" : {"X": 56, "Y": 135},
+          "Point3" : {"X": 98, "Y": 15}
+        },
+        "Params": {
+          "line_width": 3,
+          "line_color": "black",
+          "Color": "green",
+          "Transparency": "off"
+        }
+      }
+    }
+  ]
+}
