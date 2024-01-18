@@ -6,17 +6,17 @@
 
   "figures": [
     {
-      "Circle": {
+      "Square": {
         "Shape": {
-          "X_center": 45,
-          "Y_center": 20,
-          "Radius": 9
+          "X_up_left": 40,
+          "Y_up_left": 70,
+          "side_length": 120
         },
         "Params": {
-          "line_width": 3,
-          "line_color": "black",
-          "Color": "green",
-          "Transparency": "off"
+          "Line_width": 2,
+          "Line_color": "Orange",
+          "Color": "Bisque",
+          "TransparencyPercent": 69
         }
       }
     },
@@ -24,16 +24,16 @@
     {
       "Rectangle": {
         "Shape": {
-          "X_upper_left": 87,
-          "Y_upper_left": 18,
-          "X_lower_right": 130,
-          "Y_lower_right": 92
+          "X_upper_left": 80,
+          "Y_upper_left": 140,
+          "X_lower_right": 121,
+          "Y_lower_right": 190
         },
         "Params": {
-          "line_width": 3,
-          "line_color": "black",
-          "Color": "green",
-          "Transparency": "off"
+          "Line_width": 3,
+          "Line_color": "brown",
+          "Color": "lightblue",
+          "TransparencyPercent": 30
         }
       }
     },
@@ -41,15 +41,31 @@
     {
       "Square": {
         "Shape": {
-          "X_up_left": 11,
-          "Y_up_left": 14,
-          "side_length": 10
+          "X_up_left": 50,
+          "Y_up_left": 100,
+          "side_length": 30
         },
         "Params": {
-          "line_width": 3,
-          "line_color": "black",
-          "Color": "green",
-          "Transparency": "off"
+          "Line_width": 5,
+          "Line_color": "black",
+          "Color": "yellow",
+          "TransparencyPercent": 111
+        }
+      }
+    },
+
+    {
+      "Square": {
+        "Shape": {
+          "X_up_left": 122.5,
+          "Y_up_left": 100,
+          "side_length": 30
+        },
+        "Params": {
+          "Line_width": 5,
+          "Line_color": "black",
+          "Color": "yellow",
+          "TransparencyPercent": 90
         }
       }
     },
@@ -57,15 +73,30 @@
     {
       "Triangle": {
         "Shape": {
-          "Point1" : {"X": 30, "Y": 35},
-          "Point2" : {"X": 56, "Y": 135},
-          "Point3" : {"X": 98, "Y": 15}
+          "Point1" : {"X": 40, "Y": 70},
+          "Point2" : {"X": 160, "Y": 70},
+          "Point3" : {"X": 100, "Y": 15}
         },
         "Params": {
-          "line_width": 3,
-          "line_color": "black",
-          "Color": "green",
-          "Transparency": "off"
+          "Line_width": 1,
+          "Line_color": "red",
+          "Color": "gold",
+          "TransparencyPercent": 90
+        }
+      }
+    },
+    {
+      "Circle": {
+        "Shape": {
+          "X_center": 100,
+          "Y_center": 47,
+          "Radius": 19
+        },
+        "Params": {
+          "Line_width": 2,
+          "Line_color": "grey",
+          "Color": "lime",
+          "TransparencyPercent": 19
         }
       }
     }
