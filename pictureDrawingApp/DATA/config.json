@@ -1,9 +1,8 @@
 {
   "image_size": {
-    "X_length" : 250,
-    "Y_length" : 250
+    "X_length": 250,
+    "Y_length": 250
   },
-
   "figures": [
     {
       "Square": {
@@ -20,7 +19,6 @@
         }
       }
     },
-
     {
       "Rectangle": {
         "Shape": {
@@ -37,7 +35,6 @@
         }
       }
     },
-
     {
       "Square": {
         "Shape": {
@@ -49,11 +46,10 @@
           "Line_width": 5,
           "Line_color": "black",
           "Color": "yellow",
-          "TransparencyPercent": 111
+          "TransparencyPercent": 222
         }
       }
     },
-
     {
       "Square": {
         "Shape": {
@@ -69,13 +65,21 @@
         }
       }
     },
-
     {
       "Triangle": {
         "Shape": {
-          "Point1" : {"X": 40, "Y": 70},
-          "Point2" : {"X": 160, "Y": 70},
-          "Point3" : {"X": 100, "Y": 15}
+          "Point1": {
+            "X": 40,
+            "Y": 70
+          },
+          "Point2": {
+            "X": 160,
+            "Y": 70
+          },
+          "Point3": {
+            "X": 100,
+            "Y": 15
+          }
         },
         "Params": {
           "Line_width": 1,

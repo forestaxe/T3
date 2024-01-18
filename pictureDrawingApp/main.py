@@ -1,6 +1,18 @@
 import json
+import unittest
 from PIL import Image, ImageDraw
 from matplotlib import colors
+
+
+class TestRegisterShape(unittest.TestCase):
+
+    def test_register_shape(self):
+        class uniShape:
+            pass
+
+        RegisterShape.registerShape('someShape', uniShape)
+        self.assertIn('someShape', RegisterShape.data)
+        self.assertIs(RegisterShape.data['someShape'], uniShape)
 
 
 class RegisterShape:
@@ -23,7 +35,6 @@ class Frame:
         self.image_size = self.config['image_size']
         self.im = Image.new("RGB", tuple(self.image_size.values()), color="lightgreen")
         self.drw = ImageDraw.Draw(self.im, "RGBA")
-
 
     def save(self, output_folder):
         self.im.save(f"{output_folder}/img.png", "PNG")
@@ -155,3 +166,6 @@ def drawImage():
 
 
 drawImage()
+
+if __name__ == '__main__':
+    unittest.main()
